@@ -165,7 +165,7 @@
       margin-top: 40px;
 
       &__form {
-        width: 40%;
+        width: 48%;
         display: flex;
         flex-direction: column;
 
@@ -239,7 +239,7 @@
       }
 
       &__info {
-        width: 40%;
+        width: 48%;
         color: black;
       }
     }
