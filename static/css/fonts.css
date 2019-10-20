@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'SuisseIntl';
+    src: url('../fonts/SuisseIntl.woff') format('woff'), url('../fonts/SuisseIntl.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SuisseIntl';
+    src: url('../fonts/SuisseIntl-Light.woff') format('woff'), url('../fonts/SuisseIntl.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SuisseIntl';
+    src: url('../fonts/SuisseIntl-SemiBold.woff') format('woff'), url('../fonts/SuisseIntl.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}

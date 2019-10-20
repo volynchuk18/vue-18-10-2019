@@ -13,8 +13,18 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
+    script: [
+      { src: 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBE36AOxap_YCfKHkv-gd_OWrRGzDec6kE' }
+    ],
+    htmlAttrs: {
+      lang: 'en',
+    },
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/favicon.ico'
+      }
     ]
   },
   /*
@@ -25,6 +35,8 @@ export default {
   ** Global CSS
   */
   css: [
+    '~/static/css/main.css',
+    '~/static/css/fonts.css'
   ],
   /*
   ** Plugins to load before mounting the App
@@ -80,5 +92,5 @@ export default {
     */
     extend (config, ctx) {
     }
-  }
+  },
 }
