@@ -123,6 +123,7 @@
       }
 
       li {
+        font-size: 11px;
         transition: .15s;
         cursor: pointer;
 
@@ -143,6 +144,7 @@
         margin-top: 35px;
 
         li {
+          font-size: 11px;
           line-height: 25px;
         }
       }

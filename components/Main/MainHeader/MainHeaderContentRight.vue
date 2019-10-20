@@ -1,7 +1,7 @@
 <template>
   <div class="content">
     <h2 class="content-header">
-      Technical support 24/7
+      Technical support <span class="content-header-green-text">24/7</span>
     </h2>
     <div class="content-info">
       GMS understands that it can be hard to follow all new technologies. We regularly provide for all our clients educational trainings to make your operator`s business earn more and better though our best practices.
@@ -23,6 +23,12 @@
     width: 550px / 1280px * 100%;
     font-size: 15px;
     line-height: 30px;
+
+    &-header {
+      &-green-text {
+        color: green;
+      }
+    }
 
     &-info {
       margin-top: 45px;

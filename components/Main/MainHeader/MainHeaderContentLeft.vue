@@ -1,7 +1,7 @@
 <template>
   <div class="content">
     <h2 class="content-header">
-      GMS Headquarters
+      <span class="content-header-green-text">GMS</span> Headquarters
     </h2>
     <div class="content-info">
       <div class="content-info-left">
@@ -38,7 +38,9 @@
     line-height: 30px;
 
     &-header {
-
+      &-green-text {
+        color: green;
+      }
     }
 
     &-info {
