@@ -51,7 +51,6 @@
           <input
             type="checkbox"
             v-model="checkBox"
-            placeholder="E-mail"
             class="main-footer-content__form-checkbox"
           >
           <span>I agree the processing of personal data</span>
