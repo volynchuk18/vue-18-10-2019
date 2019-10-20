@@ -20,7 +20,7 @@
 
 <style scoped lang="scss">
   .content {
-    width: 550px / 1280px * 100%;
+    width: 50%;
     font-size: 15px;
     line-height: 30px;
 
